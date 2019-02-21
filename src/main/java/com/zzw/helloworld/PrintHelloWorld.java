@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class PrintHelloWorld {
-    @RequestMapping("/fagelaile")
+    @RequestMapping("/helloworld")
     @ResponseBody
     public String test() {
-        return "hello world!";
+        return "mmp!";
     }
 }
